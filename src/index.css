@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Pokemon Hollow';
+  src: url('/Pokemon Hollow.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.border-reflect {
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 1rem; /* ou equivalente ao rounded-lg */
+  background-clip: padding-box;
+  isolation: isolate; /* Importante para sobreposição do pseudo-elemento */
+}
+
+.border-reflect::before {
+  content: "";
+  position: absolute;
+  inset: -2px; /* Largura da borda reflexiva */
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 54, 171, 0.671),
+    rgba(0, 204, 255, 0.178),
+    rgba(255, 255, 0, 0.8)
+  );
+  mask-image: linear-gradient(to right, transparent 0%, white 50%, transparent 100%);
+  mask-composite: exclude; /* Para bordas reflexivas suaves */
+}
+
+/* Custom styles for iPhone SE and similar small devices */
+@media screen and (max-width: 375px) and (max-height: 667px) {
+  .small-screen-card {
+    height: calc(100vh - 6rem);
+    max-height: 667px;
+    padding: 0.75rem;
+  }
+
+  .small-screen-card .pokemon-image {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .small-screen-card .pokemon-name {
+    font-size: 1.25rem;
+    margin-top: 0.25rem;
+  }
+
+  .small-screen-card .pokemon-id {
+    font-size: 0.875rem;
+  }
+
+  .small-screen-card .stat-label,
+  .small-screen-card .stat-value {
+    font-size: 0.75rem;
+  }
+
+  .small-screen-card .stat-bar {
+    height: 0.5rem;
+  }
+
+  .small-screen-card .type-badge,
+  .small-screen-card .weakness-badge {
+    font-size: 0.625rem;
+    padding: 0.25rem 0.5rem;
+  }
+
+  .small-screen-card .section-title {
+    font-size: 0.75rem;
+  }
+
+  .small-screen-card .stats-container {
+    padding: 0.5rem;
+  }
+}
+
+.text-outline {
+  font-family: Arial, sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, rgb(143, 129, 129) 0%, rgb(0, 0, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 1rem; 
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.loading-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  animation: loading 3s infinite ease-in-out;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
