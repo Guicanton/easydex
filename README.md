@@ -23,3 +23,4 @@
    ```bash
    git clone https://github.com/Guicanton/easydex.git
    cd easydex
+   npm install && npm run dev
