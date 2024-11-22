@@ -2,7 +2,7 @@
 
 **EasyDex** is an interactive Pokedex built by IA bolt.new using the PokeAPI and created with React and JavaScript. This project allows users to explore all available Pokémon in detail, including their characteristics, abilities, types, and much more. Additionally, the app is a Progressive Web App (PWA), providing a seamless user experience on both mobile and desktop devices.
 
-<img width="527" alt="image" src="https://github.com/user-attachments/assets/1616bcf9-2844-4bd9-a104-475197694d96">
+<img width="527" alt="image" src="https://github.com/user-attachments/assets/506ed23d-c201-42c4-bac0-41a9a0112c39">
 
 ## Features
 
