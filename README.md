@@ -8,24 +8,14 @@ Enjoy: https://easypokedex.netlify.app/
 
 ## Features
 
-- **Detailed Pokémon View**: View complete information about each Pokémon, including stats, types, weakness, shiny version and more.
-- **Swap from all Pokémons**: Go through all pokemons in a card interface.
-- **Pokémon Search**: Search for Pokémon by name or number.
-- **Pokémon Ranzomize**: Search random Pokémon.
-- **PWA Mode**: Install the app as a PWA on mobile or desktop devices for offline access and a faster browsing experience.
-- **Responsive Design**: Adaptive user interface for different screen sizes, improving the experience on mobile devices.
-
-
-<img width="527" alt="image" src="https://github.com/user-attachments/assets/506ed23d-c201-42c4-bac0-41a9a0112c39">
-
-## Features
-
 - **Pokémon List**: List all Pokémons.
 - **Detailed Pokémon View**: View complete information about each Pokémon, including stats, types, weakness, shiny version and more.
 - **Swap from all Pokémons**: Go through all pokemons in a card interface.
 - **Pokémon Search**: Search for Pokémon by name or number.
 - **Pokémon Ranzomize**: Search random Pokémon.
 - **PWA Mode**: Install the app as a PWA on mobile or desktop devices for offline access and a faster browsing experience.
+
+<img width="527" alt="image" src="https://github.com/user-attachments/assets/506ed23d-c201-42c4-bac0-41a9a0112c39">
 
 ## Prerequisites
 
