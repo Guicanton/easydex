@@ -1,5 +1,7 @@
 # EasyDex: An Interactive Pokedex
 
+Enjoy: https://easypokedex.netlify.app/
+
 **EasyDex** is an interactive Pokedex built by IA bolt.new using the PokeAPI and created with Typescript and React. This project allows users to explore all available Pokémon in detail, including their characteristics, abilities, types, and much more. Additionally, the app is a Progressive Web App (PWA), providing a seamless user experience on both mobile and desktop devices.
 
 ![image](https://github.com/user-attachments/assets/fd377c78-01bb-4f9a-bbc9-252410111266)
